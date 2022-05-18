@@ -1,0 +1,59 @@
+.video-js {
+	height: 100px !important;
+	background-color: #9a736a;
+}
+.video-js .vjs-tech {
+	height: 100px;
+	background-color: #9a736a;
+}
+.video-js .vjs-poster {
+	display: none;
+}
+
+.video-js .vjs-previewer-watermark, .video-js .vjs-next-button, .video-js .vjs-time-divider, .video-js .vjs-picture-in-picture-control, .video-js .vjs-fullscreen-control {
+	display: none;
+}
+
+.video-js .vjs-control-bar {
+	align-items: center;
+	font-size: 20px !important;
+	bottom: 22px !important;
+	visibility: unset !important;
+    opacity: unset !important;
+    -webkit-backface-visibility: unset !important;
+    -webkit-transform: unset !important;
+    -moz-transform: unset !important;
+    -ms-transform: unset !important;
+    -o-transform: unset !important;
+    transform: unset !important;
+    -webkit-transition: unset !important;
+    -moz-transition: unset !important;
+    -ms-transition: unset !important;
+    -o-transition: unset !important;
+    transition: unset !important;
+}
+
+.video-js .vjs-play-control {
+	order: 1;
+}
+.video-js .vjs-current-time {
+	order: 2;
+	margin-left: 0;
+}
+.video-js .vjs-duration {
+	order: 4;
+}
+.video-js .vjs-progress-control {
+	order: 3;
+	position: unset;
+	left: unset;
+    right: unset;
+	margin: 0 10px;
+}
+.video-js .vjs-volume-panel {
+	order: 5;
+}
+.video-js .vjs-time-control {
+	padding-left: 0;
+    padding-right: 0;
+}

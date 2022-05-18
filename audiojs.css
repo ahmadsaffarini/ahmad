@@ -1,0 +1,150 @@
+ .video-js .vjs-time-control {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Hide Picture in Picture  */
+  .video-js .vjs-picture-in-picture-control {
+    display: none;
+  }
+
+  .video-js .vjs-duration,
+  .video-js .vjs-current-time,
+  .video-js .vjs-time-divider {
+    display: flex !important;
+  align-items: center;}
+
+  .video-js .vjs-big-play-button {
+    /*font-size: 1.5em;
+  top: 85%;*/
+    /*background-color: #d52484;*/
+  }
+
+  .video-js {
+    /*width: 330px !important;*/
+    <!-- height: 100%!important; -->
+    display: inline-block;
+    /*border: 5px solid #d52484;*/
+  }
+
+  /*
+ * Styles essential to the sample
+ * are below
+ */
+  #backButton,
+  #forwardButton {
+    width: 3em;
+  }
+
+  #backButton img {
+    margin-top: 8px;
+    width: 25px;
+    cursor: pointer;
+  }
+
+  #forwardButton img {
+    margin-top: 8px;
+    width: 25px;
+    cursor: pointer;
+  }
+
+  /*
+ * Styles essential to the sample
+ * are below
+ */
+
+  /* First two declarations control the transforms of the controlbar */
+  .not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-control-bar:not(.vjs-focus-within):not(.vjs-control-bar-visible),
+  .not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-control-bar:not(.vjs-focus-within):not(.vjs-control-bar-visible),
+  .not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-control-bar:not(.vjs-focus-within):not(.vjs-control-bar-visible),
+  .not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar:not(.vjs-focus-within):not(.vjs-control-bar-visible),
+  .vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive .vjs-control-bar,
+  .vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar:not(.vjs-focus-within):not(.vjs-control-bar-visible) {
+    transform: none;
+  }
+
+  .not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-progress-control,
+  .not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-progress-control,
+  .not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-progress-control,
+  .not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-progress-control,
+  .vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive .vjs-progress-control,
+  .vjs-has-started.vjs-playing.vjs-user-inactive .vjs-progress-control {
+    height: 0.5em;
+    top: -0.5em;
+  }
+
+  /* Following two declarations disable controlbar rise and lower on mouseEnter and mouseLeave events */
+  .video-js:not(.podcastPlayerClass):not(.not-hover) .vjs-control-bar {
+    transform: translateY(3em);
+  }
+
+  .video-js:not(.podcastPlayerClass):not(.not-hover) .vjs-progress-control {
+    height: 0.3em;
+    top: -0.3em;
+  }
+.video-js {
+	background: #9A736A !important;
+	height: 100px!important;
+}
+
+.video-js .vjs-control {
+    margin-left: 20px !important;
+}
+
+.video-js .vjs-button>.vjs-icon-placeholder:before {
+    font-size: 3.8em !important;
+    line-height: 1.67 !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.video-js #backButton, .video-js #forwardButton {
+    display: none !important;
+}
+
+.video-js .vjs-volume-panel.vjs-volume-panel-vertical {
+    width: 4em !important;
+    position: absolute !important;
+    right: 20px !important;
+}
+
+.video-js .vjs-time-control.vjs-current-time {
+    margin-left: 1em !important;
+}
+
+.video-js .vjs-duration, .video-js .vjs-current-time, .video-js .vjs-time-divider {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.video-js.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive:not(.vjs-audio-only-mode) .vjs-progress-control {
+    height: 1.5em !important;
+    position: absolute !important;
+    top: 42px !important;
+    width: 63% !important;
+    left: 19% !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+.video-js .vjs-progress-control .vjs-load-progress, .bc-player-LU79SIOtz_default .vjs-progress-control .vjs-play-progress, .bc-player-LU79SIOtz_default .vjs-progress-control .vjs-progress-holder {
+	height: 100% !important;
+}
+.video-js .vjs-slider {
+    background-color: #585858 !important;
+}
+.video-js .vjs-load-progress, .video-js .vjs-load-progress div {
+    background: rgba(225,225,225,.5) !important;
+}
+.vjs-mouse.bc-player-LU79SIOtz_default .vjs-progress-control {
+    height: 1.5em !important;
+}
+.video-js .vjs-play-progress {
+    background-color: #fff !important;
+}
+
+.video-js .vjs-control {
+     display: none !important;
+}
+
+

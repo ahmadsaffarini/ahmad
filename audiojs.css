@@ -51,7 +51,7 @@
 	margin: 0 10px;
 }
 .video-js .vjs-volume-panel {
-	order: 5;
+	order: 5; 
 }
 .video-js .vjs-time-control {
 	padding-left: 0;

@@ -1,4 +1,8 @@
 .video-js {
+	height: 100px !important;
+	background-color: #9a736a;
+}
+.video-js .vjs-tech {
 	height: 100px;
 	background-color: #9a736a;
 }
@@ -45,6 +49,9 @@
 	left: unset;
     right: unset;
 	margin: 0 10px;
+}
+.video-js .vjs-volume-panel {
+	order: 5;
 }
 .video-js .vjs-time-control {
 	padding-left: 0;
